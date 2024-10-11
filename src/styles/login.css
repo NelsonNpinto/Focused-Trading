@@ -1,0 +1,57 @@
+.login-container {
+    color: white;
+
+}
+
+.login-header-blue {
+    color: rgb(14, 120, 241);
+}
+
+.Login-head {
+    font-size: 2rem;
+}
+
+
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+.abc ::placeholder {
+    color: red;
+    opacity: 1;
+}
+
+
+.abc::-ms-input-placeholder {
+    color: red;
+}
+
+
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-weight: bolder;
+}
+
+.inside-list-container {
+    display: flex;
+    align-items: center;
+
+
+
+}
