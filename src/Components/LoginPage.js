@@ -27,7 +27,6 @@ const LoginPage = (props) => {
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
   const navigate = useNavigate();
-  localStorage.clear();
 
   const handleSubmit = () => {
     if (validateForm()) {
