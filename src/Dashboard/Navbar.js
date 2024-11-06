@@ -10,6 +10,7 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import { Typography } from "@mui/material";
 import FullscreenIcon from "@mui/icons-material/Fullscreen";
+import { useNavigate } from "react-router-dom";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -50,7 +51,15 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    props.setFlag(false);
+    navigate("/");
+    localStorage.clear("isLoggedIn");
+  };
+
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -108,16 +117,19 @@ const Navbar = () => {
                 <AccountCircle
                   sx={{ color: "white", fontSize: "2.2rem", mr: 1 }}
                 />
-                <Box mr={10}>
-                  <Typography mr={17}>Admin</Typography>
+                <Box mr={2}>
+                  <Typography>Admin since september 2015</Typography>
                   <Typography
                     sx={{
                       fontWeight: "normal",
                       color: "grey",
                       fontSize: "0.8rem",
                     }}
+                    onClick={() => {
+                      handleLogout();
+                    }}
                   >
-                    Admin since september 2015
+                    Log Out
                   </Typography>
                 </Box>
               </IconButton>

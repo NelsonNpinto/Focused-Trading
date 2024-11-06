@@ -87,8 +87,14 @@ const DataTable = (props) => {
     >
       {/* search */}
 
-      <Box className="outline">
-        <Box className="searchicon">{searchComponent}</Box>
+      <Box
+        className="outline"
+        sx={{
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
+        {/* <Box className="searchicon">{searchComponent}</Box> */}
         <Box
           sx={{
             display: "flex",
@@ -97,15 +103,15 @@ const DataTable = (props) => {
         >
           <Typography
             sx={{
-              ml: 6,
-              pr: 3,
+              pr: 2,
               display: "flex",
               alignItems: "center",
-              fontSize: "1rem",
+              fontSize: "0.8rem",
               fontFamily: "Montserrat, sans-serif",
               borderRight: "2px solid grey",
               fontWeight: "600",
               opacity: 0.9,
+               cursor:"pointer"
             }}
             variant="subtitle"
           >
@@ -120,11 +126,12 @@ const DataTable = (props) => {
               pr: 2,
               display: "flex",
               alignItems: "center",
-              fontSize: "1.1rem",
+              fontSize: "0.8rem",
               fontFamily: "Montserrat, sans-serif",
               borderRight: "2px solid grey",
               fontWeight: "600",
               opacity: 0.9,
+               cursor:"pointer"
             }}
             variant="subtitle"
           >
@@ -139,11 +146,12 @@ const DataTable = (props) => {
               pr: 2,
               display: "flex",
               alignItems: "center",
-              fontSize: "1.1rem",
+              fontSize: "0.8rem",
               fontFamily: "Montserrat, sans-serif",
               borderRight: "2px solid grey",
               fontWeight: "600",
               opacity: 0.9,
+               cursor:"pointer"
             }}
             variant="subtitle"
           >
@@ -158,11 +166,12 @@ const DataTable = (props) => {
               pr: 2,
               display: "flex",
               alignItems: "center",
-              fontSize: "1.1rem",
+              fontSize: "0.8rem",
               fontFamily: "Montserrat, sans-serif",
               borderRight: "2px solid grey",
               fontWeight: "600",
               opacity: 0.9,
+               cursor:"pointer"
             }}
             variant="subtitle"
           >
@@ -177,11 +186,12 @@ const DataTable = (props) => {
               pr: 2,
               display: "flex",
               alignItems: "center",
-              fontSize: "1.1rem",
+              fontSize: "0.8rem",
               fontFamily: "Montserrat, sans-serif",
               borderRight: "2px solid grey",
               fontWeight: "600",
               opacity: 0.9,
+              cursor:"pointer"
             }}
             variant="subtitle"
           >
@@ -191,7 +201,7 @@ const DataTable = (props) => {
             Verify
           </Typography>
         </Box>
-        <Box sx={{ width: 250, ml: 10 }}>
+        <Box sx={{ ml:9, width: 250 }}>
           <Slider
             defaultValue={0}
             aria-label="Default"
@@ -232,7 +242,7 @@ const DataTable = (props) => {
             </Typography>
           </Box> */}
         </Box>
-        <Box sx={{ ml: 21 }}>
+        <Box sx={{ ml: 20 , pb:2}} >
           <IconButton>
             <SaveAltIcon
               sx={{
