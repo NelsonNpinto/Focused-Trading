@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "symbol": "QQQ",
+        "description": "QQQ 488/489.78 Call (Sep 30)",
+        "account": "QQQ Intraday Vertical Spread with TA",
+        "currentGainPercentage": 8.41,
+        "currentGainDollar": 8439.86,
+        "entry": "09/30 14:26",
+        "exit": "09/30 20:00",
+        "virtual": "Yes"
+    },
+    {
+        "id":2,
+        "symbol": "SPY",
+        "description": "SPY 573/574 Call (Sep 30)",
+        "account": "SPY Intraday Vertical Spread with TA",
+        "currentGainPercentage": 10.5,
+        "currentGainDollar": 10542,
+        "entry": "09/30 14:26",
+        "exit": "09/30 20:00",
+        "virtual": "Yes"
+    },
+    {
+        "id":3,
+        "symbol": "SPY",
+        "description": "SPY 571/570 Put (Sep 27)",
+        "account": "SPY Intraday Vertical Spread with TA",
+        "currentGainPercentage": -19,
+        "currentGainDollar": -23826,
+        "entry": "09/27 17:54",
+        "exit": "09/27 18:30",
+        "virtual": "Yes"
+    },
+    {
+        "id":4,
+        "symbol": "QQQ",
+        "description": "QQQ 486/485 Put (Sep 27)",
+        "account": "QQQ Intraday Vertical Spread with TA",
+        "currentGainPercentage": -26,
+        "currentGainDollar": -32604,
+        "entry": "09/27 17:54",
+        "exit": "09/27 18:30",
+        "virtual": "Yes"
+    },
+    {
+        "id":5,
+        "symbol": "QQQ",
+        "description": "QQQ 487/486 Put (Sep 26)",
+        "account": "QQQ Intraday Vertical Spread with TA",
+        "currentGainPercentage": 17,
+        "currentGainDollar": 18887,
+        "entry": "09/26 18:03",
+        "exit": "09/26 19:52",
+        "virtual": "Yes"
+    },
+    {
+        "id":6,
+        "symbol": "QQQ",
+        "description": "QQQ 487/488 Call (Sep 25)",
+        "account": "QQQ Intraday Vertical Spread with TA",
+        "currentGainPercentage": 4.99,
+        "currentGainDollar": 5410,
+        "entry": "09/25 17:42",
+        "exit": "09/25 20:00",
+        "virtual": "Yes"
+    }
+]
