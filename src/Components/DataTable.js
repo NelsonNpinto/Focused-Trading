@@ -62,7 +62,7 @@ const DataTable = (props) => {
     sortModel,
     setSortModel,
     paginationdata,
-    searchComponent,
+    // searchComponent,
   } = props;
 
   const paginationModel = paginationdata;
